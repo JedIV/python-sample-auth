@@ -4,8 +4,8 @@ In a production deployment, this information should be saved in a database or
 other secure storage mechanism.
 """
 
-CLIENT_ID = 'ENTER_YOUR_CLIENT_ID'
-CLIENT_SECRET = 'ENTER_YOUR_CLIENT_SECRET'
+CLIENT_ID = '3c59d0c7-5058-4a0d-b1a2-9a80e5c5f5f1'
+CLIENT_SECRET = 'EDlbT3+63KtcuY0KtkH=VbLv=NSCsMW-'
 REDIRECT_URI = 'http://localhost:5000/login/authorized'
 
 # AUTHORITY_URL ending determines type of account that can be authenticated:
@@ -19,7 +19,7 @@ TOKEN_ENDPOINT = '/oauth2/v2.0/token'
 
 RESOURCE = 'https://graph.microsoft.com/'
 API_VERSION = 'v1.0'
-SCOPES = ['User.Read'] # Add other scopes/permissions as needed.
+SCOPES = ['User.Read', 'Files.ReadWrite.All'] # Add other scopes/permissions as needed.
 
 
 # This code can be removed after configuring CLIENT_ID and CLIENT_SECRET above.
